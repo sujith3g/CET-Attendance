@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attendance @ CET</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="about"> Sujith G \nsujith3g@gmail.com\n\n
+         \u00A9 HedCET Innovations\n
+         www.hedcet.com
+        </string>
+    <string name="hello">Hello World, AttndcActivity</string>
+    <string name="user_name">User Name :</string>
+    <string name="user_name_hint"> Campusoft UserName</string>
+    
+     <string name="paswd_hint">Password</string>
+     <string name="paswd">Password :</string>
+     <string name="detailed">Complete Attendance View</string> 
+     <string name="check_another">Check with a different username</string>
+</resources>

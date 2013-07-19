@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="40dip"
+        android:ems="10"
+        android:freezesText="true"
+        android:hint="@string/user_name_hint"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="20dip"
+        	android:layout_marginRight="20dip"
+            android:ems="10"
+            android:hint="@string/paswd_hint"
+            android:inputType="textPassword"
+             
+            />
+
+    <Button
+        android:id="@+id/btSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/btn_save"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btDetailed"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="41dp"
+        android:paddingRight="41dp"
+        android:text="@string/detailed" />
+
+    <Button
+        android:id="@+id/btCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dip"
+        android:paddingLeft="28dip"
+        android:paddingRight="28dip"
+        android:text="@string/check_another" />
+    
+</LinearLayout>
